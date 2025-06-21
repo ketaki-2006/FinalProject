@@ -1,12 +1,70 @@
-# React + Vite
+# 🌐 Online Code Editor with Live Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A browser-based IDE for writing and previewing HTML, CSS, and JavaScript in real-time. Built with **React**, **Monaco Editor**, and **iframes**, this editor allows you to code, preview instantly, and share your creations.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💻 Monaco Editor integration for HTML, CSS, and JS
+- ⚡ Live preview rendered in a secure iframe
+- 🧩 Starter templates for quick prototyping
+- 🔗 Share code via URL or database
+- 🖥️ Multiple layout views (side-by-side, full preview)
+- 🔁 Auto-update preview on code change
+- 📱 Responsive and mobile-friendly design
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – UI Framework  
+- **Monaco Editor** – Code editor (used in VS Code)  
+- **iframes** – Safe, isolated live preview  
+- **LocalStorage / Firebase / Supabase (optional)** – For saving and sharing code snippets  
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ketaki-2006/FinalProject 
+cd Online Code Editor with Live Preview
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm start
+```
+
+The app will run at `http://localhost:3000`.
+
+
+## 📦 Deployment
+
+You can deploy this project using:
+
+- **Vercel**
+- **Netlify**
+- **GitHub Pages**
+
+Example (Vercel):
+
+```bash
+npm run build
+vercel
+```
+
+## 📌 Todo / Improvements
+
+- [ ] Add support for external libraries (e.g., Bootstrap, jQuery)
+- [ ] User authentication for saving code in a database
+- [ ] Dark/light mode toggle
+- [ ] Import/export code as ZIP files
+
+
+
+> Feel free to fork, customize, and contribute to enhance this online code editor.
